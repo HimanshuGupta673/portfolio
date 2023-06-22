@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.content{
+    position: relative;
+    width: 140px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 70s linear infinite;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @media screen and (max-width: 360px) {
+    .content {
+      width: 100px;
+      height: 140px;
+    }
   }
-  to {
-    transform: rotate(360deg);
+  @keyframes animate {
+    0%{
+      transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+      transform: perspective(1000px) rotateY(-370deg);
+    }
   }
-}
+  .content span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(180px);
+  }
+  @media screen and (max-width: 360px) {
+    .content span{
+      transform: rotateY(calc(var(--i)*44deg)) translateZ(150px);
+    }
+    .styledAnimate{
+      margin-left: 90px !important;
+    }
+  }
+  @media screen and (max-width: 282px) {
+    .inspire{
+      font-size: 50px !important;
+    }
+  }
+  .content span img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit:scale-down;
+    border-radius: 20px;
+    transition: 1.6s;
+
+  }
+  @media screen and (max-width: 359px) {
+    .content .span img{
+      object-fit: cover;
+    }
+  }
+  .content span img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+  }

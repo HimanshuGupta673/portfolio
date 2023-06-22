@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#banner{
+    background-image: url("./components/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 1%;
+    color: white;
+}
+.chart .apexcharts-toolbar {
+  display: none;
+}
+.chart .apexcharts-legend {
+  display: none;
+}
+.chart .apexcharts-gridlines-horizontal{
+  display: none;
+}
+.chart .apexcharts-grid-borders{
+  display: none;
+}
+.chart .apexcharts-tooltip{
+  background-color: black !important;
+  border: none !important;
+  max-width: fit-content !important;
+}
+.chart .apexcharts-tooltip-title{
+  background: none !important;
+  border-bottom: none !important;
+  opacity: 0.9 !important;
+  color: white !important;
+  margin-bottom: 0px !important;
+  font-weight: bold;
+}
+.chart .apexcharts-tooltip-series-group{
+  color: white !important;
+}
+.chart .apexcharts-bar-area:hover {
+  fill: rgba(173, 172, 172, 0.85) !important;
+  fill-opacity: 0.8 !important;
+  stroke-width: 0 !important;
+}
+
+#projects {
+  background-image: url("./components/images/wood.avif");
+  object-fit: cover;
+  background-repeat:no-repeat;
+
+  @media screen and (min-width: 1024px) {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+ .react-multiple-carousel__arrow--left{
+  display: none;
+}
+ .react-multiple-carousel__arrow--right{
+  display: none;
+}
