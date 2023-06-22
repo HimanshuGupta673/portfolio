@@ -3,19 +3,19 @@ import { Typography, Box, styled } from '@mui/material';
 
 const StyledLinks = styled(Box)(({ theme }) => ({
   display: 'flex',
-  [theme.breakpoints.down('sm')]: {
+  [theme.breakpoints.down('md')]: {
     display: 'block',
     padding: '18px 0px'
   },
 }));
 
-const MarginLinks = styled('a')(({ theme }) => ({
+const MarginLinks = styled(Typography)(({ theme }) => ({
   marginLeft: '18px',
   fontSize: '15px',
   fontWeight: 'normal',
   fontFamily: 'inherit',
   cursor:'pointer',
-  [theme.breakpoints.down('sm')]: {
+  [theme.breakpoints.down('md')]: {
     marginBottom: '20px',
     marginLeft: '25px'
   }
