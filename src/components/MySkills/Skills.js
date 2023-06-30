@@ -24,7 +24,7 @@ const Container = styled(Box)(({ theme }) => ({
 
 
 function Skills() {
-  const series = [9, 8, 9,6, 9, 8, 8, 9, 7, 9, 6, 4, 8];
+  const series = [9, 8, 9 ,5, 9, 8, 8, 9, 7, 9, 6, 4, 8];
   const options = {
     chart: {
       type: 'donut',
