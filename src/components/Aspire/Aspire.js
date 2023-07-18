@@ -24,7 +24,7 @@ const Container = styled(Box)(({theme})=>({
 }))
 
 const InBox = styled(Box)(({theme})=>({
-    padding:'0px 60px',
+    padding:'0px 40px',
     [theme.breakpoints.down('md')]:{
         padding:'20px 20px',
     },
@@ -58,6 +58,10 @@ function Aspire() {
                 <Title>Full-stack Developer</Title>
                 <Typography>Ready to group both front-end and back-end under one hood.</Typography>
             </InBox>
+            <InBox>
+                <Title>React-Native Developer</Title>
+                <Typography>Seeking opportunities to enhance the front-end components of mobile applications using the React Native framework in a corporate environment.</Typography>
+            </InBox>
         </Container>
       </AspireBox>
     </div>
@@ -65,3 +69,7 @@ function Aspire() {
 }
 
 export default Aspire
+
+
+
+

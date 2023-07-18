@@ -184,8 +184,8 @@ function Banner() {
       </QuoteContainer>
 
       <QuoteContainer>
-        <QuoteText>Electrical Engineer</QuoteText>
-        <QuoteAuthor></QuoteAuthor>
+        <QuoteText>React Native Developer</QuoteText>
+        <QuoteAuthor>Building crossplatfom UI</QuoteAuthor>
       </QuoteContainer>
     </Carousel>
     <MarginQuote>

@@ -5,7 +5,7 @@ import { useState } from 'react';
 function Projects() {
   const [chartData] = useState({
     series: [{
-      name: 'Servings',
+      name: 'Projects',
       data: [5, 8, 8, 5, 5, 10, 8, 1, 4],
     }],
     options: {
@@ -49,8 +49,8 @@ function Projects() {
         labels: {
           style: {
             colors: ['#D3D3D3'] // Set Y-axis label color to white
-          }
-        }
+          },
+        },
       },
       colors: ['#8B8989', '#ADACAC', '#79858C', '#CDC9C9', '#606C73', '#E4E3E3', '#606C73', '#79858C', '#B0A6A4'],
       grid: {
