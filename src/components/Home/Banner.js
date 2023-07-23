@@ -184,7 +184,7 @@ function Banner() {
       </QuoteContainer>
 
       <QuoteContainer>
-        <QuoteText>React Native Developer</QuoteText>
+        <QuoteText style={{fontSize:"54px"}}>React Native Developer</QuoteText>
         <QuoteAuthor>Building crossplatfom UI</QuoteAuthor>
       </QuoteContainer>
     </Carousel>

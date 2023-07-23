@@ -30,9 +30,13 @@ function CustomButtons() {
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
-
+  const openResume = () => {
+    const resumeUrl = process.env.PUBLIC_URL + '/resume.pdf';
+    window.open(resumeUrl, '_blank');
+  };
   return (
     <StyledLinks>
+      <MarginLinks onClick={openResume}>Resume</MarginLinks>
       <MarginLinks onClick={() => scrollToSection('about')}>About me</MarginLinks>
       <MarginLinks onClick={() => scrollToSection('skills')}>My Skills</MarginLinks>
       <MarginLinks onClick={() => scrollToSection('projects')}>Projects</MarginLinks>

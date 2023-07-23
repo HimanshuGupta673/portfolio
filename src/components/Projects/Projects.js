@@ -2,7 +2,8 @@ import { Box,styled } from '@mui/material';
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import campusmart from '../images/campus.png'
-import flipkart from '../images/flipkart (1).png'
+import flipkart from '../images/connectify.png'
+import connectify from '../images/connectify2.png'
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -38,10 +39,13 @@ function Projects() {
       itemClass="carousel-item-padding-40-px"
     >
       <Box>
-        <img width="100%" src={campusmart} alt="" />
+       <a href="https://www.youtube.com/watch?v=BlNKp7itA_o" target='_blank'> <img width="100%" src={campusmart} alt="" /></a>
       </Box>
       <Box>
-        <img  width="100%" src={flipkart} alt="" />
+       <a href="https://www.youtube.com/watch?v=02yp3nTYP7g" target='_blank'> <img width="100%" src={flipkart} alt="" /></a>
+      </Box>
+      <Box>
+       <a href="https://www.youtube.com/watch?v=02yp3nTYP7g" target='_blank'> <img width="100%" src={connectify} alt="" /></a>
       </Box>
     </Carousel>
     </ProjectDimension>
