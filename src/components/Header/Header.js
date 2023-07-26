@@ -40,7 +40,7 @@ function Header() {
 
     const list = () => (
         <Box style={{ width: 250 }} onClick={handleClose}>
-            <List>
+            <List style={{paddingTop:'50px'}}>
                 <listItem>
                     <CustomButtons />
                 </listItem>
