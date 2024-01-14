@@ -31,7 +31,7 @@ function CustomButtons() {
     }
   };
   const openResume = () => {
-    const resumeUrl = process.env.PUBLIC_URL + '/Himanshu.pdf';
+    const resumeUrl = process.env.PUBLIC_URL + '/Himanshu_Gupta.pdf';
     window.open(resumeUrl, '_blank');
   };
   return (

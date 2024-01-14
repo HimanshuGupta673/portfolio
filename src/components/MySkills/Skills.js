@@ -28,6 +28,9 @@ function Skills() {
   const options = {
     chart: {
       type: 'donut',
+    }, 
+    dataLabels:{
+      enabled:true,
     },
     colors: ['#505050','#8B8989','#ADACAC','#79858C','#606C73','#E4E3E3','#606C73','#B0A6A4','#F4F1F1','#8B7D7B','#AEA4A2','#D0CBCA','#CDC5BF','#041218'], // Modify the colors here
     responsive: [
@@ -35,7 +38,7 @@ function Skills() {
         breakpoint: 480,
         options: {
           chart: {
-            width: 200,
+            width: 280,
           },
           legend: {
             position: 'bottom',
@@ -47,6 +50,9 @@ function Skills() {
 
     dataLabels: {
       enabled: false
+    },
+    tooltip: {
+      enabled: true,
     },
     legend: {
       show: false,
