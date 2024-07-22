@@ -179,7 +179,7 @@ function Banner() {
       </QuoteContainer1>
       
       <QuoteContainer>
-        <QuoteText>Java Programmer</QuoteText>
+        <QuoteText>Java Developer</QuoteText>
         <QuoteAuthor>Turning ideas into reality</QuoteAuthor>
       </QuoteContainer>
 

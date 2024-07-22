@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box,styled } from '@mui/material'
 import Projects from './Projects'
+import Native from './Native'
 
 const  Proj = styled(Box)(({theme})=>({
     fontSize:'55px',
@@ -21,6 +22,11 @@ function MyProjects() {
         <Box fontSize="37px" marginBottom="20px">Web Development</Box>
         <Box display="flex" justifyContent="center">
             <Projects/>
+        </Box>
+
+        <Box fontSize="37px" marginBottom="20px">React Native</Box>
+        <Box display="flex" justifyContent="center">
+            <Native/>
         </Box>
       </ProjectBox>
     </div>

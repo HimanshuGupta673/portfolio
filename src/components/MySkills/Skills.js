@@ -24,7 +24,7 @@ const Container = styled(Box)(({ theme }) => ({
 
 
 function Skills() {
-  const series = [5,9, 8, 9 ,5, 9, 8, 8, 9, 7, 9, 6, 4, 8];
+  const series = [5,6,9, 8, 9 ,5, 9, 8, 8, 9, 7, 9, 6, 8];
   const options = {
     chart: {
       type: 'donut',
@@ -32,7 +32,7 @@ function Skills() {
     dataLabels:{
       enabled:true,
     },
-    colors: ['#505050','#8B8989','#ADACAC','#79858C','#606C73','#E4E3E3','#606C73','#B0A6A4','#F4F1F1','#8B7D7B','#AEA4A2','#D0CBCA','#CDC5BF','#041218'], // Modify the colors here
+    colors: ['#505050','#8B8989','#ADACAC','#79858C','#606C73','#E4E3E3','#606C73','#B0A6A4','#F4F1F1','#8B7D7B','#AEA4A2','#D0CBCA','#041218'], // Modify the colors here
     responsive: [
       {
         breakpoint: 480,
@@ -46,7 +46,7 @@ function Skills() {
         },
       },
     ],
-    labels: ['React Native','React js', 'Node js', 'MongoDB', 'MySql', 'HTML5', 'CSS', 'TailwindCSS', 'Mui', 'Javascript', 'Java', 'Python', 'C++', 'Adobe Photoshop'], // Customize the legend labels here
+    labels: ['Spring Boot','React Native','React js', 'Node js', 'MongoDB', 'MySql', 'HTML5', 'CSS', 'TailwindCSS', 'Mui', 'Javascript', 'Java', 'Python', 'Adobe Photoshop'], // Customize the legend labels here
 
     dataLabels: {
       enabled: false

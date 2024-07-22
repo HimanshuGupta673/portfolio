@@ -6,7 +6,7 @@ function Projects() {
   const [chartData] = useState({
     series: [{
       name: 'Projects',
-      data: [5, 8, 8, 5, 5, 10, 8, 1, 4],
+      data: [3,3, 5, 8, 5],
     }],
     options: {
       chart: {
@@ -40,10 +40,10 @@ function Projects() {
         labels: {
           rotate: -45,
           style: {
-            colors: ['#D3D3D3','#D3D3D3','#D3D3D3','#D3D3D3','#D3D3D3','#D3D3D3','#D3D3D3','#D3D3D3','#D3D3D3'] // Set X-axis label color to white
+            colors: ['#D3D3D3','#D3D3D3','#D3D3D3','#D3D3D3','#D3D3D3'] // Set X-axis label color to white
           }
         },
-        categories: ['MERN', 'React js', 'Express Js', 'Javascript', 'MongoDB', 'HTML5', 'CSS', 'Tailwind', 'Mui'],
+        categories: ['Spring Boot','React Native','MERN', 'React js', 'Javascript'],
       },
       yaxis: {
         labels: {
